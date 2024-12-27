@@ -1,0 +1,66 @@
+# Бинарные файлы
+bin/
+obj/
+
+# Папки с пакетами
+packages/
+*.nupkg
+
+# Логи
+*.log
+
+# Файлы конфигурации среды
+*.user
+*.sln.docstates
+
+# Кэш пакетов
+.vs/
+.vscode/
+.idea/
+
+# Сборки на основе платформы
+**/bin/
+**/obj/
+
+# Исключения для Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+
+# Исключения для Rider
+.idea/
+*.sln.iml
+
+# Файлы, созданные одним из инструментов сборки
+*.dotCover
+*.perfView
+*.coverage
+*.coveragexml
+*.reportgenerator
+
+# Ресурсы пакетов (например, System.IO.Compression)
+*.zip
+*.tar.gz
+
+# Удаленные или ссылочные элементы (например, полные или относительные путь)
+*.dll
+*.exe
+
+# Папки с кэшированными файлами (например, ASP.NET)
+wwwroot/lib/
+wwwroot/css/
+
+# Дополнительные файлы (например, из Visual Studio, Rider или других IDE)
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pdb
+*.cache
+*.mdb
+*.db
+
+# Файлы конфигурации
+appsettings*.json
+secrets.json
+local.settings.json
